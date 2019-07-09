@@ -235,6 +235,9 @@ ARGS:
 ;; Allow use #+BIND: in org-mode
 (setq org-export-allow-bind-keywords t)
 
+;; Disable special treatment of mathematics
+(setq org-html-with-latex 'verbatim)
+
 ;; Emacs is Ready!!!
 (message "Emacs is READY!!!!!")
 
